@@ -1,0 +1,33 @@
+{
+    "name": "knops/gunfire",
+    "description": "Client to parse Gunfire product XML.",
+    "type": "library",
+    "license": "proprietary",
+    "config": {
+        "bin-dir": "bin",
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "git@github.com:knopsmedia/utilities.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Knops\\Gunfire\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Knops\\GunfireTests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "knops/utilities": "^1.0"
+    },
+    "require-dev": {
+        "sabre/xml": "^2.2"
+    }
+}
