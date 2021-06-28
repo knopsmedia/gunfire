@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Knops\Gunfire\Serializer;
+namespace Knops\GunfireClient\Serializer;
 
-use Knops\Gunfire\Model\Product;
+use Knops\GunfireClient\Model\Product;
 use Sabre\Xml\Reader;
 use Sabre\Xml\XmlDeserializable;
 use function Sabre\Xml\Deserializer\keyValue;

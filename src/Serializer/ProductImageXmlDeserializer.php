@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Knops\Gunfire\Serializer;
+namespace Knops\GunfireClient\Serializer;
 
-use Knops\Gunfire\Model\ProductImage;
+use Knops\GunfireClient\Model\ProductImage;
 use Sabre\Xml\Reader;
 use Sabre\Xml\XmlDeserializable;
 

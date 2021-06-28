@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Knops\Gunfire;
+namespace Knops\GunfireClient;
 
-use Knops\Gunfire\Model\Product;
-use Knops\Gunfire\Model\ProductPrice;
-use Knops\Gunfire\Serializer\ProductPriceXmlDeserializer;
-use Knops\Gunfire\Serializer\ProductXmlDeserializer;
+use Knops\GunfireClient\Model\Product;
+use Knops\GunfireClient\Model\ProductPrice;
+use Knops\GunfireClient\Serializer\ProductPriceXmlDeserializer;
+use Knops\GunfireClient\Serializer\ProductXmlDeserializer;
 use Sabre\Xml\Reader;
 use function Sabre\Xml\Deserializer\repeatingElements;
 

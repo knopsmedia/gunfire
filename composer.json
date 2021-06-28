@@ -1,5 +1,5 @@
 {
-    "name": "knops/gunfire",
+    "name": "knops/gunfire-client",
     "description": "Client to parse Gunfire product XML.",
     "type": "library",
     "license": "proprietary",
@@ -15,12 +15,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Knops\\Gunfire\\": "src"
+            "Knops\\GunfireClient\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Knops\\GunfireTests\\": "tests"
+            "Knops\\GunfireClientTests\\": "tests"
         }
     },
     "require": {

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Knops\Gunfire\Model;
+namespace Knops\GunfireClient\Model;
 
 final class Manufacturer
 {
